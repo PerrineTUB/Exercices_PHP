@@ -42,13 +42,11 @@
             $this->$floor;
         }
 
-
+        /* FONCTION CALCUL ETAGE */
         public function surface(){
             $surface= ($this->longueur * $this->largeur)* $this->nbrEtage;
             echo "<p>La surface de " . $this->nom . " est égale à : $surface m2</p>";
         }
-
-
         
     }
 ?>
