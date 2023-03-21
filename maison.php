@@ -47,6 +47,11 @@
             $surface= ($this->longueur * $this->largeur)* $this->nbrEtage;
             echo "<p>La surface de " . $this->nom . " est égale à : $surface m2</p>";
         }
+
+        // Méthode à appliquer
+        public function surface2(){
+            return $this->longueur * $this->largeur;
+        }
         
     }
 ?>

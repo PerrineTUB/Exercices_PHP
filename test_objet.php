@@ -6,5 +6,4 @@
     var_dump($house1);
 
     $house1->surface();
-
 ?>
